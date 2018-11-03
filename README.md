@@ -15,10 +15,10 @@ function:
 
 ```julia
 udata(codepoint::T) where T <: Union{<:AbstractChar, <:Integer}) -> Union{String, Nothing}
+```
 
 Return a string containing information about `codepoint`. If `codepoint` has not been
 assigned, return `nothing`.
-```
 
 ## Usage
 
